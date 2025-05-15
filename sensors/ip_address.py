@@ -1,6 +1,10 @@
 from homeassistant.components.sensor import SensorEntity
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
+import logging
+
+_LOGGER = logging.getLogger(__name__)
+
 
 class UniFiIpAddressSensor(CoordinatorEntity, SensorEntity):
     """Representation of a UniFi connected at sensor."""
