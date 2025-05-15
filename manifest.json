@@ -1,5 +1,5 @@
 {
-    "domain": "unifi_custom",
+    "domain": "homeassistant_unifi_network",
     "name": "Unifi Custom",
     "version": "0.1.0",
     "documentation": "https://github.com/wutzi15/homeassistant_unifi_network",
