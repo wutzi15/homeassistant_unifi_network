@@ -2,7 +2,7 @@
     "domain": "unifi_custom",
     "name": "Unifi Custom",
     "version": "0.1.0",
-    "documentation": "",
+    "documentation": "https://github.com/wutzi15/homeassistant_unifi_network",
     "requirements": [
         "aiohttp"
     ],
