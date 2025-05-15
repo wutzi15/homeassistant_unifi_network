@@ -1,0 +1,14 @@
+{
+    "domain": "unifi_custom",
+    "name": "Unifi Custom",
+    "version": "0.1.0",
+    "documentation": "",
+    "requirements": [
+        "aiohttp"
+    ],
+    "codeowners": [
+        "@wutzi15"
+    ],
+    "iot_class": "cloud_polling",
+    "config_flow": true
+}

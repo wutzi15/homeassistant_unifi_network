@@ -1,0 +1,24 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Connect to UniFi",
+                "description": "Enter your UniFi host and API key",
+                "data": {
+                    "host": "UniFi Host",
+                    "api_key": "API Key"
+                }
+            },
+            "site": {
+                "title": "Select Site",
+                "description": "Choose which site to monitor",
+                "data": {
+                    "site_id": "Site"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect or no sites found"
+        }
+    }
+}
